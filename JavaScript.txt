@@ -1,0 +1,799 @@
+			==JavaScript==
+
+
+JavaScript and Java are completely different languages, both in concept and design.
+
+JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+
+
+   1. HTML to define the content of web pages
+
+   2. CSS to specify the layout of web pages
+
+   3. JavaScript to program the behavior of web pages
+
+
+JavaScript is the world's most popular programming language.
+
+JavaScript is the light-weight object oriented programming language of the Web.
+
+JavaScript is easy to learn.
+
+JavaScript accepts both double and single quotes
+
+JavaScript Can Change HTML Attribute Values
+
+JavaScript Can Change HTML Styles
+
+JavaScript Can Hide HTML Elements
+
+JavaScript Can Show HTML Elements
+
+In HTML, JavaScript code is inserted between <script> and </script> tags
+
+
+		==JavaScript Functions and Events
+A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+
+For example, a function can be called when an event occurs, like when the user clicks a button.
+
+		==JavaScript in <head> or <body>
+You can place any number of scripts in an HTML document.
+
+Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+
+
+		==JavaScript in <head>
+a JavaScript function is placed in the <head> section of an HTML page.
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+
+myFunction function is called in body tag
+
+
+
+		==JavaScript in <body>
+a JavaScript function is placed in the <body> section of an HTML page.
+
+<body>
+
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+</body>
+
+
+		==External JavaScript
+
+External scripts are practical when the same code is used in many different web pages.
+
+JavaScript files have the file extension .js.
+
+To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:
+
+Advantages of script tag : 
+
+1. It separates HTML and code
+2. It makes HTML and JavaScript easier to read and maintain
+3. Cached JavaScript files can speed up page loads
+
+*   An external script can be referenced in 3 different ways:
+
+-- With a full URL (a full web address)
+	<script src="https://www.w3schools.com/js/myScript.js"></script>
+
+-- With a file path (like /js/).
+	<script src="/js/myScript.js"></script>
+
+-- Without any path
+	<script src="myScript.js"></script>
+
+
+JavaScript can "display" data in different ways:
+
+Writing into an HTML element, using innerHTML.
+Writing into the HTML output using document.write().
+Writing into an alert box, using window.alert().
+Writing into the browser console, using console.log().
+
+
+
+
+Using innerHTML
+To access an HTML element, JavaScript can use the document.getElementById(id) method.
+The id attribute defines the HTML element. The innerHTML property defines the HTML content
+
+
+Using document.write()
+For testing purposes, it is convenient to use document.write()
+
+
+Using window.alert()
+You can use an alert box to display data
+
+
+Using console.log()
+For debugging purposes, you can call the console.log() method in the browser to display data.
+
+
+
+
+You can skip the window keyword.
+In JavaScript, the window object is the global scope object. This means that variables, properties, and methods by default belong to the window object. This also means that specifying the window keyword is optional
+
+
+**     JavaScript Print
+JavaScript does not have any print object or print methods.
+
+You cannot access output devices from JavaScript.
+
+The only exception is that you can call the window.print() method in the browser to print the content of the current window.
+
+
+
+A computer program is a list of "instructions" to be "executed" by a computer.
+
+In a programming language, these programming instructions are called statements.
+
+A JavaScript program is a list of programming statements.
+
+
+		==JavaScript Statements
+JavaScript statements are composed of:
+
+=> Values, Operators, Expressions, Keywords, and Comments.
+=> Most JavaScript programs contain many JavaScript statements.
+=> The statements are executed, one by one, in the same order as they are written.
+
+
+		==Semicolons ;
+Semicolons separate JavaScript statements.
+
+Add a semicolon at the end of each executable statement
+When separated by semicolons, multiple statements on one line are allowed
+
+
+		==JavaScript White Space
+JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
+
+A good practice is to put spaces around operators ( = + - * / )
+
+
+
+		==JavaScript Variable
+A JavaScript variable is simply a name of storage location. There are two types of variables in JavaScript : local variable and global variable.
+
+There are some rules while declaring a JavaScript variable (also known as identifiers).
+
+Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+After first letter we can use digits (0 to 9), for example value1.
+JavaScript variables are case sensitive, for example x and X are different variables.
+	var x = 10;  
+	var _value="sonoo";  
+
+1.Local variables---declared inside function
+2.Global variable---declared outside function
+
+
+
+
+		==JavaScript Data Types
+JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+
+Primitive data type
+Non-primitive (reference) data type
+JavaScript is a dynamic type language, means you don't need to specify type of the variable because it is dynamically used by JavaScript engine. You need to use var here to specify the data type. It can hold any type of values such as numbers, strings
+
+
+		==JavaScript primitive data types
+There are five types of primitive data types in JavaScript. They are as follows:
+
+Data Type	Description
+String	--------represents sequence of characters e.g. "hello"
+Number	--------represents numeric values e.g. 100
+Boolean	--------represents boolean value either false or true
+Undefined-------represents undefined value
+Null	--------represents null i.e. no value at all
+
+
+
+		==JavaScript non-primitive data types
+
+Data Type	Description
+Object----------represents instance through which we can access members
+Array	--------represents group of similar values
+RegExp	--------represents regular expression
+
+
+
+		==JavaScript Operators
+
+There are following types of operators in JavaScript.
+
+1. Arithmetic Operators
+2. Comparison (Relational) Operators
+3. Bitwise Operators
+4. Logical Operators
+5. Assignment Operators
+6. Special Operators
+
+
+		==Arithmetic Operator
+
++   ----------Addition----------------10+20 = 30
+-   ----------Subtraction-------------20-10 = 10
+*   ----------Multiplication----------10*20 = 200
+/   ----------Division----------------20/10 = 2
+%   ----------Modulus (Remainder)-----20%10 = 0
+++  ----------Increment---------------var a=10; a++; Now a = 11
+--  ----------Decrement---------------var a=10; a--; Now a = 9
+
+
+		==Comparison Operators
+
+==	Is equal to				10==20 = false
+===	Identical (equal and of same type)	10==20 = false
+!=	Not equal to				10!=20 = true
+!==	Not Identical				20!==20 = false
+>	Greater than				20>10 = true
+>=	Greater than or equal to		20>=10 = true
+<	Less than				20<10 = false
+<=	Less than or equal to			20<=10 = false
+
+
+		==Bitwise Operators
+
+&	Bitwise AND			(10==20 & 20==33) = false
+|	Bitwise OR			(10==20 | 20==33) = false
+^	Bitwise XOR			(10==20 ^ 20==33) = false
+~	Bitwise NOT			(~10) = -10
+<<	Bitwise Left Shift		(10<<2) = 40
+>>	Bitwise Right Shift		(10>>2) = 2
+>>>	Bitwise Right Shift with Zero	(10>>>2) = 2
+
+
+		==Logical Operators
+
+
+&&	Logical AND			(10==20 && 20==33) = false
+||	Logical OR			(10==20 || 20==33) = false
+!	Logical Not			!(10==20) = true
+
+
+		==Assignment Operators
+
+=	Assign				10+10 = 20
++=	Add and assign			var a=10; a+=20; Now a = 30
+-=	Subtract and assign		var a=20; a-=10; Now a = 10
+*=	Multiply and assign		var a=10; a*=20; Now a = 200
+/=	Divide and assign		var a=10; a/=2; Now a = 5
+%=	Modulus and assign		var a=10; a%=2; Now a = 0
+
+
+		==Special Operators
+
+(?:)------Conditional Operator returns value based on the condition. It is like if-else.
+
+,---------Comma Operator allows multiple expressions to be evaluated as single statement.
+
+delete----Delete Operator deletes a property from the object.
+
+in--------In Operator checks if object has the given property
+
+instanceof-----checks if the object is an instance of given type
+
+new-------creates an instance (object)
+
+typeof----checks the type of object.
+
+void------it discards the expression's return value.
+
+yield-----checks what is returned in a generator by the generator's iterator.
+
+
+
+		== JavaScript if-else statement
+1. If Statement-------It evaluates the content only if expression is true.
+
+2. If else statement---It evaluates the content whether condition is true of false
+
+3. if else if statement---It evaluates the content only if expression is true from several expressions.
+
+
+
+
+		==JavaScript Switch
+=> The JavaScript switch statement is used to execute one code from multiple expressions
+=> it is convenient than if..else..if because it can be used with numbers.
+=> The switch statement is fall-through i.e. all the cases will be evaluated if you don't use break statement.
+
+
+		==JavaScript Loops
+
+The JavaScript loops are used to iterate the piece of code
+
+1. for loop
+	for (initialization; condition; increment)  
+	{  
+    	code to be executed  
+	}  
+
+
+2. while loop
+	while (condition)  
+	{  
+    	code to be executed  
+	}  
+
+
+3. do-while loop
+	do{  
+    	code to be executed  
+	}while (condition);  
+
+
+4. for-in loop
+	The JavaScript for in loop is used to iterate the properties of an object. 	
+
+
+
+		==JavaScript Functions
+
+JavaScript functions are used to perform operations. We can call JavaScript function many times to reuse the code.
+
+	function functionName([arg1, arg2, ...argN]){  
+ 	//code to be executed  
+	}  
+
+---------------------------------
+<script>  
+function msg(){  
+alert("hello! this is message");  
+}  
+</script>  
+<input type="button" onclick="msg()" value="call function"/>  
+
+------------------------------------
+
+function with argument
+
+<script>  
+function getcube(number){  
+alert(number*number*number);  
+}  
+</script>  
+<form>  
+<input type="button" value="click" onclick="getcube(4)"/>  
+</form>  
+
+------------------------------------
+
+function with return value
+
+<script>  
+function getInfo(){  
+return "hello javatpoint! How r u?";  
+}  
+</script>  
+<script>  
+document.write(getInfo());  
+</script>  
+
+-------------------------------------
+
+JavaScript Function Object
+
+In JavaScript, the purpose of Function constructor is to create a new Function object. It executes the code globally. However, if we call the constructor directly, a function is created dynamically but in an unsecured way.
+
+
+JavaScript Function Methods
+
+
+apply()--------It is used to call a function contains this value and a single array of arguments.
+bind()---------It is used to create a new function.
+call()---------It is used to call a function contains this value and an argument list.
+toString()-----It returns the result in a form of a string.
+
+
+
+		==JavaScript Objects
+
+A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc.
+
+JavaScript is an object-based language. Everything is an object in JavaScript.
+
+JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+
+
+Ways to create object--
+1. By object literal
+	object={property1:value1,property2:value2.....propertyN:valueN}  
+	
+	<script>  
+	emp={id:102,name:"Shyam Kumar",salary:40000}  
+	document.write(emp.id+" "+emp.name+" "+emp.salary);  
+	</script>  
+
+
+2. By creating instance of Object directly (using new keyword)
+	var objectname=new Object();  
+
+	<script>  
+	var emp=new Object();  
+	emp.id=101;  
+	emp.name="Ravi Malik";  
+	emp.salary=50000;  
+	document.write(emp.id+" "+emp.name+" "+emp.salary);  
+	</script>  
+
+
+3. By using an object constructor (using new keyword)
+	<script>  
+	function emp(id,name,salary){  
+	this.id=id;  
+	this.name=name;  
+	this.salary=salary;  
+	}  
+	e=new emp(103,"Vimal Jaiswal",30000);  
+  
+	document.write(e.id+" "+e.name+" "+e.salary);  
+	</script>  
+
+
+
+		==JavaScript Object Methods
+
+Object.assign()----This method is used to copy enumerable and own properties from a source object to a target object
+
+Object.create()----This method is used to create a new object with the specified prototype object and properties.
+
+Object.defineProperty()----This method is used to describe some behavioral attributes of the property.
+
+Object.defineProperties()----This method is used to create or configure multiple object properties.
+
+Object.entries()----This method returns an array with arrays of the key, value pairs.
+
+Object.freeze()----This method prevents existing properties from being removed.
+
+Object.getOwnPropertyDescriptor()----This method returns a property descriptor for the specified property of the specified object.
+
+Object.getOwnPropertyDescriptors()----This method returns all own property descriptors of a given object.
+
+Object.getOwnPropertyNames()----This method returns an array of all properties (enumerable or not) found.
+
+Object.getOwnPropertySymbols()----This method returns an array of all own symbol key properties.
+
+Object.getPrototypeOf()----This method returns the prototype of the specified object.
+
+Object.is()----This method determines whether two values are the same value.
+
+Object.isExtensible()----This method determines if an object is extensible
+
+Object.isFrozen()----This method determines if an object was frozen.
+
+Object.isSealed()----This method determines if an object is sealed.
+
+Object.keys()----This method returns an array of a given object's own property names.
+
+Object.preventExtensions()----This method is used to prevent any extensions of an object.
+
+Object.seal()----This method prevents new properties from being added and marks all existing properties as non-configurable.
+
+Object.setPrototypeOf()----This method sets the prototype of a specified object to another object.
+
+Object.values()----This method returns an array of values.
+
+
+
+		==JavaScript Array
+JavaScript array is an object that represents a collection of similar type of elements. To print the array elements we can use loops.
+
+There are 3 ways to construct array in JavaScript
+
+1. By array literal
+	var arrayname=[value1,value2.....valueN];  
+
+2. By creating instance of Array directly (using new keyword)
+	var arrayname=new Array(); 
+
+3. By using an Array constructor (using new keyword)
+	var arrayname=new Array(value1,value2,value3...);
+
+
+
+		==JavaScript Array Methods
+
+concat()----It returns a new array object that contains two or more merged arrays.
+
+copywithin()----It copies the part of the given array with its own elements and returns the modified array.
+
+entries()----It creates an iterator object and a loop that iterates over each key/value pair.
+
+every()----It determines whether all the elements of an array are satisfying the provided function conditions.
+
+flat()----It creates a new array carrying sub-array elements concatenated recursively till the specified depth.
+
+flatMap()----It maps all array elements via mapping function, then flattens the result into a new array.
+
+fill()----It fills elements into an array with static values.
+
+from()----It creates a new array carrying the exact copy of another array element.
+
+filter()----It returns the new array containing the elements that pass the provided function conditions.
+
+find()----It returns the value of the first element in the given array that satisfies the specified condition.
+
+findIndex()----It returns the index value of the first element in the given array that satisfies the specified condition.
+
+forEach()----It invokes the provided function once for each element of an array.
+
+includes()----It checks whether the given array contains the specified element.
+
+indexOf()----It searches the specified element in the given array and returns the index of the first match.
+
+isArray()----It tests if the passed value ia an array.
+
+join()----It joins the elements of an array as a string.
+
+keys()----It creates an iterator object that contains only the keys of the 
+array, then loops through these keys.
+
+lastIndexOf()----It searches the specified element in the given array and returns the index of the last match.
+
+map()----It calls the specified function for every array element and returns the new array
+
+of()----It creates a new array from a variable number of arguments, holding any type of argument.
+
+pop()----It removes and returns the last element of an array.
+
+push()----It adds one or more elements to the end of an array.
+
+reverse()----It reverses the elements of given array.
+
+reduce(function, initial)----It executes a provided function for each value from left to right and reduces the array to a single value.
+
+reduceRight()----It executes a provided function for each value from right to left and reduces the array to a single value.
+
+some()----It determines if any element of the array passes the test of the implemented function.
+
+shift()----It removes and returns the first element of an array.
+
+slice()----It returns a new array containing the copy of the part of the given array.
+
+sort()----It returns the element of the given array in a sorted order.
+
+splice()----It add/remove elements to/from the given array.
+
+toLocaleString()----It returns a string containing all the elements of a specified array.
+
+toString()----It converts the elements of a specified array into string form, without affecting the original array.
+
+unshift()----It adds one or more elements in the beginning of the given array.
+
+values()----It creates a new iterator object carrying values for each index in the array.
+
+
+
+		==JavaScript String
+The JavaScript string is an object that represents a sequence of characters.
+
+There are 2 ways to create string in JavaScript
+
+1. By string literal--------The string literal is created using double quotes.
+
+2. By string object (using new keyword)--------new keyword is used to create instance of string.
+
+
+
+		==JavaScript String Methods
+
+
+charAt()-----It provides the char value present at the specified index.
+
+charCodeAt()-----It provides the Unicode value of a character present at the specified index.
+
+concat()-----It provides a combination of two or more strings.
+
+indexOf()-----It provides the position of a char value present in the given string.
+
+lastIndexOf()-----It provides the position of a char value present in the given string by searching a character from the last position.
+
+search()-----It searches a specified regular expression in a given string and returns its position if a match occurs.
+
+match()-----It searches a specified regular expression in a given string and returns that regular expression if a match occurs.
+
+replace()-----It replaces a given string with the specified replacement.
+
+substr()-----It is used to fetch the part of the given string on the basis of the specified starting position and length.
+
+substring()-----It is used to fetch the part of the given string on the basis of the specified index.
+
+slice()-----It is used to fetch the part of the given string. It allows us to assign positive as well negative index.
+
+toLowerCase()-----It converts the given string into lowercase letter.
+
+toLocaleLowerCase()-----It converts the given string into lowercase letter on the basis of host?s current locale.
+
+toUpperCase()-----It converts the given string into uppercase letter.
+
+toLocaleUpperCase()-----It converts the given string into uppercase letter on the basis of host?s current locale.
+
+toString()-----It provides a string representing the particular object.
+
+valueOf()-----It provides the primitive value of string object.
+
+split()-----It splits a string into substring array, then returns that newly created array.
+
+trim()-----It trims the white space from the left and right side of the string.
+
+
+
+
+		==JavaScript Date Object
+
+The JavaScript date object can be used to get year, month and day. You can display a timer on the webpage by the help of JavaScript date object.
+
+
+4 variant of Date constructor to create date object.
+
+1. Date()
+2. Date(milliseconds)
+3. Date(dateString)
+4. Date(year, month, day, hours, minutes, seconds, milliseconds)
+
+
+JavaScript Date Methods
+
+
+getDate()	It returns the integer value between 1 and 31 that represents the day for the specified date on the basis of local time.
+getDay()	It returns the integer value between 0 and 6 that represents the day of the week on the basis of local time.
+getFullYears()	It returns the integer value that represents the year on the basis of local time.
+getHours()	It returns the integer value between 0 and 23 that represents the hours on the basis of local time.
+getMilliseconds()	It returns the integer value between 0 and 999 that represents the milliseconds on the basis of local time.
+getMinutes()	It returns the integer value between 0 and 59 that represents the minutes on the basis of local time.
+getMonth()	It returns the integer value between 0 and 11 that represents the month on the basis of local time.
+getSeconds()	It returns the integer value between 0 and 60 that represents the seconds on the basis of local time.
+getUTCDate()	It returns the integer value between 1 and 31 that represents the day for the specified date on the basis of universal time.
+getUTCDay()	It returns the integer value between 0 and 6 that represents the day of the week on the basis of universal time.
+getUTCFullYears()	It returns the integer value that represents the year on the basis of universal time.
+getUTCHours()	It returns the integer value between 0 and 23 that represents the hours on the basis of universal time.
+getUTCMinutes()	It returns the integer value between 0 and 59 that represents the minutes on the basis of universal time.
+getUTCMonth()	It returns the integer value between 0 and 11 that represents the month on the basis of universal time.
+getUTCSeconds()	It returns the integer value between 0 and 60 that represents the seconds on the basis of universal time.
+setDate()	It sets the day value for the specified date on the basis of local time.
+setDay()	It sets the particular day of the week on the basis of local time.
+setFullYears()	It sets the year value for the specified date on the basis of local time.
+setHours()	It sets the hour value for the specified date on the basis of local time.
+setMilliseconds()	It sets the millisecond value for the specified date on the basis of local time.
+setMinutes()	It sets the minute value for the specified date on the basis of local time.
+setMonth()	It sets the month value for the specified date on the basis of local time.
+setSeconds()	It sets the second value for the specified date on the basis of local time.
+setUTCDate()	It sets the day value for the specified date on the basis of universal time.
+setUTCDay()	It sets the particular day of the week on the basis of universal time.
+setUTCFullYears()	It sets the year value for the specified date on the basis of universal time.
+setUTCHours()	It sets the hour value for the specified date on the basis of universal time.
+setUTCMilliseconds()	It sets the millisecond value for the specified date on the basis of universal time.
+setUTCMinutes()	It sets the minute value for the specified date on the basis of universal time.
+setUTCMonth()	It sets the month value for the specified date on the basis of universal time.
+setUTCSeconds()	It sets the second value for the specified date on the basis of universal time.
+toDateString()	It returns the date portion of a Date object.
+toISOString()	It returns the date in the form ISO format string.
+toJSON()	It returns a string representing the Date object. It also serializes the Date object during JSON serialization.
+toString()	It returns the date in the form of string.
+toTimeString()	It returns the time portion of a Date object.
+toUTCString()	It converts the specified date in the form of string using UTC time zone.
+valueOf()	It returns the primitive value of a Date object.
+
+
+
+		==JavaScript Math Methods
+
+abs()		It returns the absolute value of the given number.
+acos()		It returns the arccosine of the given number in radians.
+asin()		It returns the arcsine of the given number in radians.
+atan()		It returns the arc-tangent of the given number in radians.
+cbrt()		It returns the cube root of the given number.
+ceil()		It returns a smallest integer value, greater than or equal to the given number.
+cos()		It returns the cosine of the given number.
+cosh()		It returns the hyperbolic cosine of the given number.
+exp()		It returns the exponential form of the given number.
+floor() 	It returns largest integer value, lower than or equal to the given number.
+hypot()		It returns square root of sum of the squares of given numbers.
+log()		It returns natural logarithm of a number.
+max()		It returns maximum value of the given numbers.
+min()		It returns minimum value of the given numbers.
+pow()   	It returns value of base to the power of exponent.
+random()	It returns random number between 0 (inclusive) and 1 (exclusive).
+round() 	It returns closest integer value of the given number.
+sign()		It returns the sign of the given number
+sin()		It returns the sine of the given number.
+sinh()		It returns the hyperbolic sine of the given number.
+sqrt()		It returns the square root of the given number
+tan()		It returns the tangent of the given number.
+tanh()		It returns the hyperbolic tangent of the given number.
+trunc()		It returns an integer part of the given number.
+
+
+		==JavaScript Number Object
+The JavaScript number object enables you to represent a numeric value. It may be integer or floating-point. JavaScript number object follows IEEE standard to represent the floating-point numbers.
+
+isFinite()	It determines whether the given value is a finite number.
+isInteger()	It determines whether the given value is an integer.
+parseFloat()	It converts the given string into a floating point number.
+parseInt()	It converts the given string into an integer number.
+toExponential()	It returns the string that represents exponential notation of the given number.
+toFixed()	It returns the string that represents a number with exact digits after a decimal point.
+toPrecision()	It returns the string representing a number of specified precision.
+toString()	It returns the given number in the form of string.
+
+
+
+
+		==Document Object Model
+
+The document object represents the whole html document.
+
+When html document is loaded in the browser, it becomes a document object. It is the root element that represents the html document. It has properties and methods. By the help of document object, we can add dynamic content to our web page.
+
+
+		==Methods of document object
+
+We can access and change the contents of document by its methods.
+
+The important methods of document object are as follows:
+
+write("string")	writes the given string on the doucment.
+writeln("string")		writes the given string on the doucment with newline character at the end.
+getElementById()		returns the element having the given id value.
+getElementsByName()		returns all the elements having the given name value.
+getElementsByTagName()		returns all the elements having the given tag name.
+getElementsByClassName()	returns all the elements having the given class name.
+
+
+
+
+
+document.getElementById()
+method returns the element of specified id.
+In the previous page, we have used document.form1.name.value to get the value of the input value. Instead of this, we can use document.getElementById() method to get value of the input text. But we need to define id for the input field.
+
+document.getElementsByName() method returns all the element of specified name. Here, name is required.
+
+document.getElementsByTagName() method returns all the element of specified tag name.
+
+
+
+		==javascript innerHTML
+
+The innerHTML property can be used to write the dynamic html on the html document.
+
+It is used mostly in the web pages to generate the dynamic html such as registration form, comment form, links etc.
+
+
+
+		==javascript innerText
+
+The innerText property can be used to write the dynamic text on the html document. Here, text will not be interpreted as html text but a normal text.
+
+It is used mostly in the web pages to generate the dynamic content such as writing the validation message, password strength etc.
+
+
+
+
+
+
+

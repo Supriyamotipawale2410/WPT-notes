@@ -1,0 +1,391 @@
+
+<input> types
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+1. 
+Which of the following colors contain equal amounts of RBG?
+
+white, gray, black, all
+
+Correct Answer--all
+Gray is RGB(50, 50, 50), White is RGB(100, 100, 100) and Black is RGB(0, 0, 0).
+
+2. 
+What is the correct syntax to write an HTML comment?
+<--!comment-->
+
+3. 
+What is the effect of the <b> tag?
+<b> is used to convert the text within it to bold font.
+
+4. 
+What is the function of the HTML style attribute?
+The HTML style attribute is used to add styles like font, color, and size to an HTML element.
+
+
+5. 
+What is the select tag used for?
+A HTML combo box is created using the select tag.
+
+6. 
+What is the smallest header in HTML by default?
+h6 is the smallest header in HTML by default.
+
+7. 
+What is the speciality about the <small> and <big> tags in HTML?
+The tags can be repeated and their effects and stacked on top of each other.
+
+8. 
+What tag is used to render an image on a webpage?
+The img tag is used to display an image on a webpage.
+
+9. 
+Which attribute is used to provide a unique name to an HTML element?
+An id is used to provide a unique name for an HTML element that can be used to identify it.
+
+10. 
+Which HTML element is used to define description data?
+Description data is defined by <dd> tag.
+
+11. 
+Which HTML tag is called the root element of an HTML document?
+The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it.
+
+12. 
+Which HTML tag is used to set up a Javascript-like client-side scripting language?
+<script> tag is used for the purpose of setting up a client-side scripting language.
+
+
+13. 
+Which of the following are examples of block-level elements in HTML?
+div,p,h1
+
+14. 
+What is meant by an empty tag in HTML?
+In HTML, empty tags are those tags that don’t require a closing tag for completion.
+
+15. 
+Which of the following is correct about HTML?
+HTML can only use the tags defined within the language.
+
+16. 
+Which of the following is the correct syntax for using the HTML 
+<tagname style= "property:value;">
+
+17. 
+Which of the following is true about HTML tags?
+HTML tags are not case-sensitive in nature.
+
+18. 
+Which of the following properties is used to change the font of text?
+The font-family property is used to change text font in HTML
+
+19. 
+Which of the following tags doesn’t require a closing tag?
+Both the <hr> and the <br> tag doesn’t require a closing tag.
+
+20. 
+Which of the following tags is used to add a row to a table in HTML?
+<tr> is used to add a row to a table in HTML.
+
+21. 
+Which of the following tags is used to indicate the page’s start and endpoints?
+<html> tag indicates the web browser where a webpage starts and ends.
+
+22. 
+Which of the following things are necessary to create an HTML page?
+With a text editor and a web browser we can create an HTML page.
+
+23. 
+Which property allows an image link to show a text label?
+The alt property allows an image link to show a text label.
+
+24. 
+Which property is used to set border colors in HTML?
+The border property is used to change the border properties, including color in HTML.
+
+25. 
+Which property is used to set colors in HTML?
+The color property is used to set and change colors in HTML.
+
+26. 
+The most basic part of any HTML page is?
+ASCII Text comprises the most basic part of any HTML page, as it is the simplest character set a webpage can use.
+
+27. 
+Colors are defined in HTML using?
+
+Colors are defined using RGB, HEX, HSL-hue, saturation, and lightness, RGBA-red, green, blue, alpha, HSLA-hue, saturation, lightness, alpha values or with predefined color names.
+
+28. 
+How are quotations defined in HTML?
+The <blockquote> tag is used to define a section that is quoted from another source.
+
+29. 
+How is black color represented in terms of RGB values?
+RCB(0, 0, 0) is equivalent to black color in terms of RGB values.
+
+30. 
+How many characters can be written in 1KB?
+1024 characters can be written in a file of size 1KB.
+
+31. 
+How many sizes of headers are available in HTML by default?
+6 headers are available in HTML by default ranging from h1 to h6.
+
+32. 
+How to create an ordered list in HTML?
+An ordered list is created in HTML by using the <ol> tag.
+
+33. 
+How to display preformatted text in HTML?
+<pre> tags is used to handle preformatted text in HTML.
+
+34. 
+How to set a font for a whole page?
+<defaultfont> tag is used to set up a default font type for a whole page.
+
+35. 
+HTML files are saved by default with the extension?
+HTML files are saved by the .html or .htm extension.
+
+36. 
+If a background image is smaller than the screen on which it is being displayed, what will occur on the webpage?
+By default on most screens, if the background image is smaller than the screen on which it is being displayed, the image will be repeated.
+
+37. 
+The CSS inside HTML elements used alongside style attribute is called?
+The CSS used alongside the style attribute with HTML elements is called Inline CSS.
+
+38. 
+The default value of the BORDER attribute is?
+1pixel is the default value for the BORDER attribute in HTML.
+
+39. 
+Apart from <i> tag, which of the following tag is used to render a text in italics?
+The <em> tag is used to emphasize text, which puts same effect as <i> tag.
+
+40. 
+We enclose HTML tags within?
+HTML tags are enclosed within < > according to syntax.
+
+41. 
+What are some valid character sets available?
+UTF-8,ASCII,ANSI
+
+42. 
+What are the attributes used to change the size of an image?
+Width and Height attributes are used to change the size of an image.
+
+43. 
+What are the main components of the front end of any working website?
+HTML, CSS, and Javascript combined to form the basic components of any working website’s frontend.
+
+44. 
+What are the properties of block-level elements?
+always start on new line ,takes full width available, has top and bottom margin
+
+45. 
+What are the types of lists available in HTML?
+The lists available in HTML are Ordered and Unordered List.
+
+46. 
+What are the types of unordered lists in HTML?
+The unordered lists in HTML can form bullets of form Circle, Square and Disc.
+
+47. 
+What are those objects called which are used for storing data on the client provided by the HTML local storage?
+Such objects with the property mentioned above are called as Windows.localStorage or Window.sessionStorage.
+
+48. 
+What does the abbreviation HTML stand for?
+HTML stands for HyperText Markup Language.
+
+49. 
+What does the Alpha value in RGBA represent?
+A in RGBA represents the value of the Alpha Channel which is a measure of the Opacity of a color.
+
+50. 
+What does the Alpha value of 0.0 represent?
+The Alpha value varies between 0.0 (fully transparent) to 1.0(fully opaque).
+
+
+1. What is HTML?
+HTML is the standard markup language mainly used to create web pages. HTML describes the structure and layout of a webpage. HTML consists of a series of elements that helps the browser how to display content easily.
+
+2. Who is the father of HTML?
+Timothy John Berners-Lee (TimBL) is known as the father of HTML. He is a British computer scientist, best known as the inventor of the World Wide Web.
+
+4. What is the correct syntax of doctype in HTML5?
+The correct syntax of HTML5 doctype is <!doctype html>, doctype is the very first thing to write in HTML5. <!doctype html> or <!DOCTYPE HTML> both are same because ‘doctype’ keyword is not case sensitive.
+
+5. Which of the following is used to read an HTML page and render it?
+A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web. A web server process, store and display output to the client as per their request. Web matrix is a discontinued cloud-connected website builder and HTML editor for Windows.
+
+6. Which of the following is not a difference between HTML and XHTML?
+HTML is case insensitive while XHTML is case sensitive. In XHTML, special characters can be escaped using character entites but not in HTML. Charset in HTML is “text/html” where as it is “application/xml+xhtml” for XHTML.
+
+7. Which of the following tag is used for inserting the largest heading in HTML?
+<h1>
+
+8. What is DOM in HTML?
+The Document Object Model is a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure. A document can be viewed as a logical tree with help of DOM Model.
+
+9. In which part of the HTML metadata is contained?
+Metadata is information about data. The meta tag provides metadata/meta information about the HTML document. Metadata will not be displayed on the page. Metadata is present in head. The body tag defines document’s body. A title tag is an HTML element which specifies the title of a web page.
+
+10. Which element is used to get highlighted text in HTML5?
+The <mark> element is used to highlight a section of text. It is useful for quoting a text or if one wants to bring attention to the text. The <b> tag is used to make text/paragraph bold. <u> tag is used to underline the text you wanted.
+
+11. Which of the following is not a HTML5 tag?
+a) <track>
+b) <video>
+c) <slider>
+d) <source>
+Answer: c
+
+<video> tag is used to display video clips in HTML5. Multiple media resources for media elements is specified by <source> tag. Text track for media elements i.e. <audio> & <video> is provided by <track> tag in HTML5. There is no such thing as slider tag in HTML5.
+
+13. Which of the following elements in HTML5 defines video or movie content?
+a) <video>
+b) <movie>
+c) <audio>
+d) <media>
+
+Answer: a
+Explanation: The media to which linked document is optimized is given by <media> tag. Before HTML5, videos could only be played with a plug-in (like flash). The HTML5 video element specifies a standard way to embed a video in a webpage. As like <video> elements, <audio> element contains additional files or streams like music, recording, etc.
+
+14. Which of the following is not the element associated with the HTML table layout?
+a) alignment
+b) color
+c) size
+d) spanning
+Answer: b
+Explanation: There are three elements in HTML table layout i.e. size, spanning and alignment. Layout type can be achieved by setting Rows elements layout attribute to Fixed or Auto. Auto attribute relies on browser compatibility whereas fixed layout relies on developer specification.
+
+15. Which element is used for or styling HTML5 layout?
+
+16. Which HTML tag is used for making character appearance bold?
+<b>content</b>
+
+17. Which HTML tag is used to insert an image?
+a) <img url=”htmllogo.jpg” />
+b) <img alt=”htmllogo.jpg” />
+c) <img src=”htmllogo.jpg” />
+d) <img link=”htmllogo.jpg” />
+
+Answer: c
+Explanation: In HTML, <img> tag is used to insert an image in HTML page. Image tag has two attributes (src and Alt).
+–> Src attribute is used to specify the image path.
+–> Alt attribute is used to specify the alternate text for the image.
+
+18. HTML is a subset of ___________
+HTML is a subset of SGML. SGML (Standard Generalized Markup Language) is a standard for specifying a document markup language or tag set.
+
+21. Among the following, which is the HTML paragraph tag?
+<p>
+
+22. In HTML, which attribute is used to create a link that opens in a new window tab?
+target=”_blank”
+
+23. Which HTML element is used for short quote?
+We used <q> element for shorter quote. Browser put quote around <q> element.
+
+25. Which HTML element is used for abbreviation or acronym?
+For using, abbreviation or acronym <abbr> element is helpful. A title element is to be used with abbr.
+
+27. What is the work of <address> element in HTML5?
+The contact details for author of a page is specified by <address> attribute. The content is often displayed in italics
+
+28. Which of the following tag is used to create a text area in HTML Form?
+The text area tag (<textarea>) is used in a form to declare a text area element. It allows the user to enter text in multiple rows.
+
+
+29. To show deleted text, which HTML element is used?
+<del> element shows text that has been deleted from, usually it has a line through the content.
+
+
+30. What is the correct syntax of web address?
+The correct syntax for a web address is scheme://prefix.domain:port/path/filename, where scheme is for https or http, prefix is for domain like www, domain denotes domain name, port defines port number, path defines path at server, filename is for name of the document.
+
+31. Which tag is used to create a dropdown in HTML Form?
+<select> element is used to create a drop-down list in HTML Forms. It is mainly used to collect user input. Option tags are used within the <select> element to define available options from the drop-down list.
+
+32. Which tag is used to create a numbered list in HTML?
+<ol>
+
+33. How to create a checkbox in HTML Form?
+<input type=”checkbox”>
+
+
+36. Which tag is used to create a blank line in HTML?
+<br> tag is used to create a blank line
+
+
+37. Which HTML tag is used to convert the plain text into italic format?
+In HTML, <i> tag is used to convert the plain text into italic format.
+
+
+38. What is the use of <hr/> tag in HTML?
+To create a break between themes-such as a change of topic in a book or a new scene in a play-you can add a horizontal rule between sections using <hr/> tag
+
+39. Which attribute is not essential under <iframe>?
+An iframe is equivalent to a window that has been cut into our page, it is created using <iframe> element. Src, height, width attribute are essentially used inside of this. Src attribute specifies the URL of the page which is to be shown. Height and width specify the height and width of an iframe in pixels.
+
+
+40. Which works similar to <b> element?
+<strong>
+
+
+41. Which tag is used to underline the text in HTML?
+ underline tag (<u>) is used to display the underlined text.
+
+
+42. Which attribute specifies a unique alphanumeric identifier to be associated with an element?
+id
+
+
+43. Which of the following is an HTML specification used to add more information to HTML tags?
+The Microdata spec provides a standardized syntax for additional semantic markup to your web pages to enhance the machine readability of your web pages. The planning for distribution center operation is offered by minidata. Macrodata and Modifydata are not any terms related to HTML5.
+
+
+44. Which HTML element is used for YouTube videos?
+ We can host our videos through YouTube and can easily embed them into our website. <iframe> tag will be used for YouTube videos.
+
+
+45. Which of the following HTML element is used for canvas graphics?
+CSS i.e. Cascading Style Sheet is a scripting language. Canvas graphics are introduced in HTML5. Element used for canvas graphics is <canvas>. The HTML canvas element is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+
+
+
+
+
+
+
+
+
+
